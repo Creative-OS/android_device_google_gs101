@@ -15,3 +15,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+
+# Parts
+PRODUCT_PACKAGES += \
+    GoogleParts
