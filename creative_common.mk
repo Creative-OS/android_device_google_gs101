@@ -31,3 +31,6 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/fonts/Arvo-BoldItalic.ttf \
     system/fonts/Arvo-Italic.ttf \
     system/fonts/Arvo-Regular.ttf
+
+# Touch
+include hardware/google/pixel/touch/device.mk
