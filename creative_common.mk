@@ -23,3 +23,11 @@ PRODUCT_PACKAGES += \
 # Parts
 PRODUCT_PACKAGES += \
     GoogleParts
+
+# Artifact Allowed List
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/etc/sensitive_pn.xml \
+    system/fonts/Arvo-Bold.ttf \
+    system/fonts/Arvo-BoldItalic.ttf \
+    system/fonts/Arvo-Italic.ttf \
+    system/fonts/Arvo-Regular.ttf
